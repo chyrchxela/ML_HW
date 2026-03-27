@@ -10,16 +10,16 @@ ML-постановка задачи
 Тип задачи: бинарная классификация
 Объект: одна игра из Steam Store
 Признаки (X):
--owners - оценочное количество владельцев
-- average_forever ,  median_forever  - среднее/медианное игровое время
-- positive ,  negative ,  userscore  - отзывы и рейтинг
-- price ,  initialprice ,  discount  - цена и скидки
-- genre ,  tags ,  languages  - жанры, теги, языки
-- developer ,  publisher  - разработчик, издатель
-- ccu  - одновременные игроки
+- owners - оценочное количество владельцев
+- average_forever ,  median_forever  - среднее/медианное игровое время
+- positive ,  negative ,  userscore  - отзывы и рейтинг
+- price ,  initialprice ,  discount  - цена и скидки
+- genre ,  tags ,  languages  - жанры, теги, языки
+- developer ,  publisher  - разработчик, издатель
+- ccu  - одновременные игроки
 Целевая переменная (y):
-- y = 1  («хит») - игра в топ-20% по  owners  ИЛИ  median_forever 
-- y = 0  («не хит») - остальные игры
+- y = 1  («хит») - игра в топ-20% по  owners  ИЛИ  median_forever 
+- y = 0  («не хит») - остальные игры
 Цель модели: предсказать $P(y=1|X)$ - вероятность того, что игра станет хитом
 
 Набор данных
